@@ -2,4 +2,4 @@
 layout: notfound
 title: 404
 ---
-Click on the little circle to get back
+Click on the Home to get back
