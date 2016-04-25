@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+{% include intro.html %}
 <head>
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
@@ -55,15 +56,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="main">
-            <nav class="navbar">
-                <a href="{{ site.baseurl }}/">
-                    <span class="alignable pull-left back-outer">
-                        <span class="alignable pull-left back-inner">
-                        </span>
-                    </span>
-                </a>
-            </nav>
+      <div class="main">
             {{ content }}
         </div>
     </div>

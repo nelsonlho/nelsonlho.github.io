@@ -14,8 +14,11 @@ body {
     height: 100%;
     overflow: auto;
 }
-.site-name {
-    color: $accent-color;
+#site-name {
+    //color: $accent-color;
+		color: white;
+		margin-top: 50px;
+		font-size: 50px;
 }
 .faded {
     color: $light-color;
@@ -152,16 +155,33 @@ footer {
 .site-name {
     font-size: 35px;
 }
-.intro {
+
+#intro-new {
     text-align: center;
     margin: auto;
     font-size: 30px;
-    font-family: 'Montserrat';
+    font-family: 'Helvetica Neue';
+		color: white;
+		background-image: url('/images/hong kong1-min.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-bottom: 36.484%;
+		height: 400px;
+
 }
 .container {
     max-width: $max-width;
     margin: auto;
     padding: $base-spacing;
+}
+
+.index-title {
+    margin-top: 0.1em;
+    font-size: 40px;
+    margin-bottom: 1.5em;
+    //font-family: 'Montserrat';
+    color: #ff0f00;
 }
 .post-preview {
     display: block;
@@ -202,12 +222,16 @@ footer {
  * * * * * * * * * * * */
 
 .navbar {
-    margin: auto;
+    //margin: auto;
     padding: $base-spacing $base-spacing;
     width: 100%;
-    min-height: 70px;
-    //background-color: $accent-color;
+    min-height: 300px;
+		//background-color: $accent-color;
 }
+.back-outer, .back-inner{
+	margin-top: -140px;
+}
+
 .back-outer {
     text-align: center;
     width: $big-circle-size;
@@ -216,6 +240,8 @@ footer {
     border-radius: $big-circle-size;
     background-color: #000;
     padding: 0;
+
+
 }
 .back-inner {
     height: 24px;
@@ -224,7 +250,10 @@ footer {
     border: 2px solid #fff;
     border-radius: 24px;
     background: #fff;
+
 }
+
+
 .back-inner:hover {
     background: #000;
 }
@@ -293,4 +322,24 @@ hr {
     font-weight: lighter;
     @media (max-width: $break-small) {
     }
+}
+
+#intro-ul {
+	.menu-li{
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 20px;
+		text-decoration: underline;
+		&:hover {
+			color: white;
+		}
+	}
+}
+.menu-ul {
+		list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
 }

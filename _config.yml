@@ -1,25 +1,28 @@
 # User Settings | Edit there as per required
 
-title: accent
-url: "http://ankitsultana.me"
-baseurl: "/accent"
+title: Nelson's Blog
+url: "http://nelsonlho.github.io"
+baseurl: ""
 
 # This will show up at the top of index page
+# site_heading: >
+#    Nelson <span class="faded">'s Blog</span>
 site_heading: >
-    foo <span class="faded">'s blog</span>
+   Nelson's Blog
 
-email: your@email.com
-author: yourname
+email: nelsonlho@gmail.com
+author: Nelson Ho
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    accent is, as Trump would put it, the best
+    Nelson Ho's Portfolio and Tech Blog
 
 # This will what will show against &copy; in the footer
-copyright: accent
+copyright: Nelson Ho
+
 # Toggle your short bio, which will displayed on your index page
 # Just toggle it and run jekyll again to see
-intro: false         # Tip: Remove the span from site_heading if intro is set to true
+intro: false       # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
     Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
@@ -39,18 +42,19 @@ comments: true
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Keep this sentence less than 13 words or it won't look good.
+    Software Ethusiast
 
 about_footer: true
 
-twitter_username: AnkitSultana
-github_username: yourgithub
+
+twitter_username: nelsonlho
+github_username: nelsonlho
 facebook_id: yourusername
 
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture: images/temp.png
+profile_picture: images/van-gogh.jpg
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID
