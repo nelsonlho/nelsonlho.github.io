@@ -1,0 +1,39 @@
+
+
+{% if site.intro %}
+    <div id="intro">
+        <div class="container">
+            {% if site.profile_picture %}
+                <img id="intro-img" src="{{ site.profile_picture }}">
+            {% endif %}
+            <h2>
+                {% if site.site_heading %}
+                    {{ site.site_heading }}
+                {% else %}
+                    {{ site.title }}
+                {% endif %}
+            </h2>
+            <p style="margin-top: 30px;">
+                {{ site.short_bio }}
+            </p>
+        </div>
+    </div>
+{% else %}
+    <section id="intro-new">
+        <div class="container">
+
+            <h1 id="site-name">
+                {% if site.site_heading %}
+                    {{ site.site_heading }}
+                {% else %}
+                    {{ site.title }}
+                {% endif %}
+            </h1>
+            <ul class="menu-ul" id="intro-ul">
+            <li class="menu-li"><a href="index.html">Home</a></li>
+            <li class="menu-li"><a href="about.html">About</a></li>
+            <li class="menu-li"><a href="resume.html">Résumé</a></li>
+          </ul>
+        </div>
+    </section>
+{% endif %}
